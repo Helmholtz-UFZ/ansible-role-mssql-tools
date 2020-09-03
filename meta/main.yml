@@ -1,6 +1,7 @@
 galaxy_info:
+  role_name: mssql-tools
   author: Robin Peters
-  description: install mssql tools on centos 8
+  description: install mssql tools on RHEL
   company: Helmholtz-Centre for Environmental Research GmbH - UFZ
   license: MIT
 
