@@ -5,7 +5,7 @@
     url: https://packages.microsoft.com/config/rhel/{{ ansible_distribution_major_version }}/prod.repo
     dest: /etc/yum.repos.d/msprod.repo
 
-- name: accept microsoft's eula
+- name: accept microsoft's eula and install mssql-tools
   yum:
     name:
       - mssql-tools
